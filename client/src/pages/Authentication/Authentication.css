@@ -1,0 +1,132 @@
+.auth-container {
+  background-color: #fff;
+  border-radius: 25px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  width: 800px;
+  min-height: 500px;
+  max-width: 100%;
+  margin: 100px auto;
+  position: relative;
+  z-index: 1;
+}
+
+.auth-container h1 {
+  font-weight: 700;
+  letter-spacing: -1.5px;
+  margin: 0;
+  margin-bottom: 15px;
+  color: var(--primary-component-color);
+}
+
+.auth-container p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
+  text-shadow: 0 0 10px rgba(16, 64, 74, 0.5);
+}
+
+.auth-container span {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.auth-container a {
+  color: #000;
+  font-size: 14px;
+  margin: 15px 0;
+  transition: 0.3s ease-in-out;
+}
+
+.auth-container a:hover {
+  color: var(--primary-component-color);
+}
+
+.auth-container button {
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid var(--primary-component-color);
+  background-color: var(--primary-component-color);
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 10px;
+  padding: 12px 80px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  transition: 0.3s ease-in-out;
+}
+
+.auth-container button:hover {
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.auth-container button:active {
+  transform: scale(0.95);
+}
+
+.auth-container button:focus {
+  outline: none;
+}
+
+.auth-container form {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+}
+
+.auth-container .form-item {
+  text-align: start;
+}
+
+.auth-container .form-item .form-label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 700;
+  margin: 0px 2px;
+}
+
+.auth-container .form-item input {
+  background-color: #eee;
+  border-radius: 10px;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+}
+
+.auth-container .form-container {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+}
+
+.auth-container .social-container {
+  margin: 20px 0;
+}
+
+.auth-container .social-container div {
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+  transition: 0.3s ease-in-out;
+}
+
+.auth-container .social-container div:hover {
+  border: 1px solid var(--primary-component-color);
+  cursor: pointer;
+}
